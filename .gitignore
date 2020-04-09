@@ -19,3 +19,5 @@ data/*
 
 raisim_gym/env/env/jueying/jueying/meshes
 raisim_gym/env/env/jueying/jueying/models
+raisim_gym/env/env/jueying/jueying/jueying_raisim.urdf
+raisim_gym/env/env/jueying/jueying/jueying_simple.urdf
