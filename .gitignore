@@ -14,3 +14,8 @@ cmake-*/*
 data/*
 .vscode/*
 */.vscode/*
+
+####################### mark personal
+
+raisim_gym/env/env/jueying/jueying/meshes
+raisim_gym/env/env/jueying/jueying/models
