@@ -84,7 +84,7 @@
       <material name="white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707963268 0 0" xyz="0 0 0"/>
       <geometry>
         <cylinder length="0.204" radius="0.0746"/>
       </geometry>
@@ -180,7 +180,7 @@
       <material name="white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707963268 0 0" xyz="0 0 0"/>
       <geometry>
         <cylinder length="0.204" radius="0.0746"/>
       </geometry>
@@ -276,7 +276,7 @@
       <material name="white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707963268 0 0" xyz="0 0 0"/>
       <geometry>
         <cylinder length="0.204" radius="0.0746"/>
       </geometry>
@@ -372,7 +372,7 @@
       <material name="white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5707963268 0 0" xyz="0 0 0"/>
       <geometry>
         <cylinder length="0.204" radius="0.0746"/>
       </geometry>
@@ -454,5 +454,6 @@
     <limit effort="58.3" lower="0.66" upper="2.73" velocity="13.4"/>
     <dynamics damping="1.2" friction="0.1"/>
   </joint>
+  <!-- <xacro:include filename="$(find jueying_description)/urdf/jueying_trans.xacro" /> -->
 </robot>
 

@@ -56,7 +56,7 @@ public:
     {
 
         /// add objects
-        jueying_ = world_->addArticulatedSystem(resourceDir_ + "/jueying_simple.urdf");
+        jueying_ = world_->addArticulatedSystem(resourceDir_ + "/jueying_raisim.urdf");
         jueying_->setControlMode(raisim::ControlMode::PD_PLUS_FEEDFORWARD_TORQUE);
         ground_ = world_->addGround();
         world_->setERP(0, 0);
@@ -120,7 +120,7 @@ public:
         gui::rewardLogger.init({"forwardVelReward", "torqueReward"});
 
         /// indices of links that should not make contact with ground
-        bodyIndex_ = jueying_->getBodyIdx("base_link");
+        bodyIndex_ = jueying_->getBodyIdx("origin_link");
 
         /// visualize if it is the first environment
         if (visualizable_)
